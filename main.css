@@ -53,7 +53,18 @@ img {
     height: 250px; /* モバイル表示時は少し小さく */
   }
 }
-
+video {
+    display: block;
+    margin: 20px auto;
+    /* 動画の幅は50% */
+    width: 50%;
+    /* 動画の高さを300pxに設定 */
+    height: 300px;
+    /* アスペクト比を維持しつつサイズを調整 */
+    object-fit: cover; 
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
 
