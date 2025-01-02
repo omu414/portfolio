@@ -31,7 +31,7 @@ img {
 }
 
 .img-2col-container img {
-  width: 100%;
+  width: 80%;
   height: 300px; /* 画像の高さを固定 */
   object-fit: cover; /* アスペクト比を維持しつつ、指定サイズに収める */
   border-radius: 10px;
